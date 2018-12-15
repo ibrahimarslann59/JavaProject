@@ -22,11 +22,12 @@ public static void islemleri_bastir() throws InterruptedException {
 public static void main(String[] args) throws InterruptedException {
         
   System.out.println("Sarkici Programina Hosgeldiniz..\n");
+  islemleri_bastir();
    while(true) {
        
       
        
-       islemleri_bastir();   String islem;     
+          String islem;     
        
 
        System.out.println("Bir islem seciniz:");
